@@ -1,10 +1,10 @@
-package ma.emsi.benazzouzwalid.tp3rest.config;
+package ma.emsi.benazzouzwalid.tp3rest;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
 
 /**
- * Configuration JAX-RS principale : fixe la racine '/api' pour tous les endpoints REST du TP.
+ * Base JAX-RS application configuration.
  */
 @ApplicationPath("/api")
 public class RestApplication extends Application {
